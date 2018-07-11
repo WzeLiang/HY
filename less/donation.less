@@ -1,0 +1,166 @@
+.donation{
+  .content{
+    .content-box{
+      .box-list{
+        .list-step-title{
+          margin: 40px 0 40px;
+          display: flex;
+          justify-content: space-between;
+          .step-item{
+            .item-numb{
+              margin: 0 auto;
+              width: 40px;
+              height: 40px;
+              line-height: 40px;
+              border-radius: 20px;
+              background: #d9d9d9;
+              color: white;
+              margin-bottom:20px;
+              position: relative;
+              transition: all .1s .4s ease;
+              .back-gray{
+                position: absolute;
+                left: 40px;
+                top: 17.5px;
+                height: 5px;
+                width: 500px;
+                background: #d9d9d9;
+              }
+              .back-progress1{
+                transition: all .5s ease;
+                position: absolute;
+                background: #44aded;
+                left: 40px;
+                top: 17.5px;
+                height: 5px;
+                width: 0;
+              }
+              .back-progress2{
+                transition: all .5s ease;
+                position: absolute;
+                background: #44aded;
+                left: 40px;
+                top: 17.5px;
+                height: 5px;
+                width: 0;
+              }
+            }
+            .numb-active{
+              background: #44aded;
+            }
+          }
+        }
+        .list-step-content{
+          position: relative;
+          height: 1200px;
+          .step-box1{
+            z-index: 101;
+            background: white;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 1200px;
+            transition: all .5s ease;
+            .box1-form{
+              form{
+                .form-item{
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 10px;
+                  .form-text{
+                    width: 250px;
+                  }
+                  .form-panel{
+                    width: 750px;
+
+                  }
+                }
+              }
+            }
+          }
+          .step-box2{
+            width: 100%;
+            z-index: 100;
+            background: white;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 1200px;
+            transition: all .5s ease;
+            .box2-title{
+              margin-bottom: 80px;
+            }
+            .form-group{
+              display: flex;
+              justify-content: space-between;
+              .group-item{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .item-info{
+                  width: 400px;
+                  background: white;
+                  padding: 10px 40px;
+                  border: 1px solid darkgrey;
+                  border-radius: 3px;
+                  margin-left: 30px;
+                  img{
+                    width: 36px;
+                    height: 36px;
+                  }
+                }
+              }
+            }
+            .pay-numb{
+              font-size: 16px;
+              margin: 120px auto 60px;
+              .text-red{
+                font-size: 22px;
+                margin: 0 10px;
+              }
+            }
+            .paybtn-box{
+              display: flex;
+              justify-content: center;
+              .paybtn{
+               width: 170px;
+                height: 36px;
+                font-size: 16px;
+                line-height: 36px;
+                border-radius: 18px;
+              }
+            }
+          }
+          .step-box3{
+            width: 100%;
+            z-index: 100;
+            background: white;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 1200px;
+            transition: all .5s ease;
+            .box3-content{
+              margin: 40px auto;
+              display: flex;
+              justify-content: center;
+              .content-img{
+                img{
+                  width: 80px;
+                  height: 80px;
+                }
+              }
+              .content-msg{
+                padding-top: 10px;
+                margin-left: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
